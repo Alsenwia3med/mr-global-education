@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MR GLOBEL EDUCTION</title>
+  <meta name="description" content="تسجيل طلاب في الجامعات والمعاهد في ماليزيا — عربي/إنجليزي، ثيم داكن/فاتح، نموذج إرسال عبر البريد والواتساب." />
+
+  <!-- خطوط جوجل -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- CSS الرئيسي -->
+  <style>
+    /* ضع هنا CSS الأصلي الموجود عندك */
+    :root{
+      --bg: #ffffff; --text:#111111; --muted:#666; --card:#f6f6f6; --border:#e5e5e5; --accent:#111; --accent-contrast:#fff;
+    }
+    [data-theme="dark"]{
+      --bg:#0b0b0b; --text:#f2f2f2; --muted:#b3b3b3; --card:#161616; --border:#2a2a2a; --accent:#ffffff; --accent-contrast:#000;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:'Cairo', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif}
+    a{color:inherit}
+    .container{max-width:1200px;margin:0 auto;padding:0 20px}
+    /* باقي CSS كما هو... */
+  </style>
+
+  <!-- CSS خاص بالجوال -->
+  <link rel="stylesheet" href="mobile.css">
+</head>
+<body data-theme="light">
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <div class="brand" aria-label="MR GLOBEL EDUCTION">
+        <div class="logo" aria-hidden="true"></div>
+        <span>MR GLOBEL EDUCTION</span>
+      </div>
+      <div class="nav-links">
+        <a href="#home" data-i18n="nav_home">الرئيسية</a>
+        <a href="#about" data-i18n="nav_about">نبذة عنا</a>
+        <a href="#malaysia" data-i18n="nav_malaysia">عن ماليزيا</a>
+        <a href="#services" data-i18n="nav_services">الخدمات</a>
+        <a href="#apply" class="btn btn-outline" data-i18n="nav_apply">قدّم الآن</a>
+        <a href="#contact" data-i18n="nav_contact">تواصل</a>
+      </div>
+      <div class="actions">
+        <div class="lang-switch">
+          <button class="btn btn-ghost" id="arBtn">عربي</button>
+          <button class="btn btn-ghost" id="enBtn">English</button>
+        </div>
+        <button class="btn" id="themeToggle" data-i18n="toggle_theme">الوضع الداكن</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- باقي الكود كما هو (HERO، SERVICES، ABOUT، APPLY، CONTACT، FOOTER، SCRIPT) -->
+  <!-- تأكد أن تترك <script> كما هو، لأنه مسؤول عن اللغة والثيم وإرسال الفورم -->
+
+</body>
+</html>
